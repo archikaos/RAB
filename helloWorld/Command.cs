@@ -26,7 +26,7 @@ namespace helloWorld
             Document doc = uidoc.Document;
 
             TaskDialog.Show("helloWorld", "Hello World!");
-            TaskDialog.Show("gitTest", "Practicing commit");
+            TaskDialog.Show("gitTest", "Practicing commit and push");
             return Result.Succeeded;
         }
     }
