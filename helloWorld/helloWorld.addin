@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command helloWorld</Text>
+    <Description>Command Tools for helloWorld</Description>
+    <Assembly>helloWorld.dll</Assembly>
+    <FullClassName>helloWorld.Command</FullClassName>
+    <ClientId>fb1eab75-94a0-4f0d-91be-287da7b75d2d</ClientId>
+    <VendorId>archikaos</VendorId>
+    <VendorDescription>archikaos, http://www.archikaos.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application helloWorld</Name>
+    <Assembly>helloWorld.dll</Assembly>
+    <FullClassName>helloWorld.App</FullClassName>
+    <ClientId>b74edccc-c127-40fd-9a49-741393432506</ClientId>
+    <VendorId>archikaos</VendorId>
+    <VendorDescription>archikaos, http://www.archikaos.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
