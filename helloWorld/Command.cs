@@ -27,6 +27,7 @@ namespace helloWorld
 
             TaskDialog.Show("helloWorld", "Hello World!");
             TaskDialog.Show("gitTest", "Practicing commit and push");
+            TaskDialog.Show("gitTest", "Practicing edit in github");
             return Result.Succeeded;
         }
     }
